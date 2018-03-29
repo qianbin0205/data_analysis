@@ -80,7 +80,6 @@ for r in result:
                 result_2nd = Operation().check_data(table='meituan_shop_info',
                                                     w_sub={'hashkey': hashkey})
                 if result_2nd:
-                    print("xxxxxxx")
                     continue
                 else:
                     Operation().update(table='meituan_shop_info',
