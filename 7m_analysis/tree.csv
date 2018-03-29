@@ -1,0 +1,15 @@
+RID	age	income	student	credit_rating	Class_buys_computer
+1	yon	hi	n	fa	n
+2	yon	hi	n	ex	n
+3	mid	hi	n	fa	y
+4	sen	med	n	fa	y
+5	sen	lo	y	fa	y
+6	sen	lo	y	ex	n
+7	mid	lo	y	ex	y
+8	yon	med	n	fa	n
+9	yon	lo	y	fa	y
+10	sen	med	y	fa	y
+11	yon	med	y	ex	y
+12	mid	med	n	ex	y
+13	mid	hi	y	fa	y
+14	sen	med	n	ex	n
