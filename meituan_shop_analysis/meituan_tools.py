@@ -1,7 +1,6 @@
 import MySQLdb
 from datetime import datetime
 from fake_useragent import UserAgent
-from hashlib import md5
 
 
 def ua_random():
@@ -68,20 +67,31 @@ class Operation:
     def insert(self, table, row):
         cur = self._conn.cursor()
         dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        row.append(dt)
+
         if 'meituan_area_info' in table and len(row) == 7:
+            row.append(dt)
             insert_sql = """INSERT INTO meituan_area_info (hashkey,main_id,main_area,sub_id,sub_area,url,entry_date)
                             VALUES (%s, %s, %s, %s, %s, %s, %s);
                 """
+            print('new_area_insert', row[0])
             cur.execute(insert_sql, row)
 
         elif 'meituan_shop_info' in table and len(row) == 11:
+            row.append(dt)
             insert_sql = """INSERT INTO meituan_shop_info (hashkey, poi_id,comment_num,avg_price,
                             avg_score,address,title,deal_list,url,img_url,sub_id,entry_date)
                             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """
-            print('insert ok\t', row[0])
+            print('new_shop_insert!', row[0])
             cur.execute(insert_sql, row)
+
+        elif 'meituan_error_link' in table:
+            insert_sql = """INSERT INTO meituan_error_link (url,entry_date)
+                            VALUES (%s,%s)
+                """
+            r = (row, dt)
+            print('error_link_insert', row)
+            cur.execute(insert_sql, r)
 
         cur.close()
         self._conn.commit()
@@ -105,7 +115,14 @@ class Operation:
                   sub_id = %s
                   ''' % tuple(row) + \
                   '  where  poi_id = {};'.format(row[1])
+            cur.execute(sql)
+            print('shop_info_update', row[0])
+
+        elif 'error_link' in table:
+            sql = '''update {} set status = 0 WHERE
+                   url = "{}" and status = 1'''.format(table, row)
 
             cur.execute(sql)
-            print('update ok!', row[0])
-            self._conn.commit()
+            print('link_status_update', row)
+
+        self._conn.commit()
