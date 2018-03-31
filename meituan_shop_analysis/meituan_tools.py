@@ -119,8 +119,7 @@ class Operation:
             print('shop_info_update', row[0])
 
         elif 'error_link' in table:
-            sql = '''update {} set status = 0 WHERE
-                   url = "{}" and status = 1'''.format(table, row)
+            sql = '''update {} set status = 0 WHERE url = "{}" and status = 1'''.format(table, row)
 
             cur.execute(sql)
             print('link_status_update', row)

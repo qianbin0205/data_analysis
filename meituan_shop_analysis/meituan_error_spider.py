@@ -6,25 +6,29 @@ from hashlib import md5
 from meituan_tools import Operation
 from meituan_tools import ua_random
 
-result = Operation().check_data(table='meituan_error_link',
-                                col='url',
-                                w_sub={'status': 1})
+s = requests.session()
+s.keep_alive = False
+op = Operation()
+headers = ua_random()
+result = op.check_data(table='meituan_error_link',
+                       col='url',
+                       w_sub={'status': 1})
 for u in result:
 
     url = u[0]
     sub_id = re.findall('areaId=(\d+?)&', url)[0]
     pg = int(re.findall('page=(\d+?)&', url)[0])
 
-    Operation().update(table='meituan_error_link',
-                       row=url)
-    response = requests.get(url, headers=ua_random())
-    response.close()
+    op.update(table='meituan_error_link',
+              row=url)
+    response = s.get(url, headers=headers)
     time.sleep(5)
 
     try:
         poiinfo = eval(response.text)['data']["poiInfos"]
     except:
-        Operation().insert(table='meituan_error_link', row=url)
+        op.insert(table='meituan_error_link', row=url)
+        time.sleep(5)
         continue
 
     while poiinfo:
@@ -44,29 +48,29 @@ for u in result:
             hashkey = md5(''.join(list(map(str, row))).encode('utf-8')).hexdigest()
             row.insert(0, hashkey)
 
-            result = Operation().check_data(table='meituan_shop_info',
-                                            w_sub={'poi_id': poi_id})
+            result = op.check_data(table='meituan_shop_info',
+                                   w_sub={'poi_id': poi_id})
             if result:
-                result_2nd = Operation().check_data(table='meituan_shop_info',
-                                                    w_sub={'hashkey': hashkey})
+                result_2nd = op.check_data(table='meituan_shop_info',
+                                           w_sub={'hashkey': hashkey})
                 if result_2nd:
                     continue
                 else:
-                    Operation().update(table='meituan_shop_info',
-                                       row=row)
+                    op.update(table='meituan_shop_info',
+                              row=row)
             else:
-                Operation().insert(table='meituan_shop_info', row=row)
+                op.insert(table='meituan_shop_info', row=row)
 
         pg = pg + 1
         url = re.sub(re.compile('page=\d+'), 'page=' + str(pg), url)
 
-        response = requests.get(url, headers=ua_random())
-        response.close()
+        response = s.get(url, headers=headers)
         time.sleep(1)
         try:
             poiinfo = eval(response.text)['data']["poiInfos"]
         except:
-            Operation().insert(table='meituan_error_link', row=url)
+            op.insert(table='meituan_error_link', row=url)
+            time.sleep(5)
             continue
 
-Operation().db_close()
+op.db_close()
