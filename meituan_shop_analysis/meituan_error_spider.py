@@ -17,7 +17,7 @@ for u in result:
 
     Operation().update(table='meituan_error_link',
                        row=url)
-    response = requests.get(url, headers=ua_random(), timeout=10)
+    response = requests.get(url, headers=ua_random())
     response.close()
     time.sleep(5)
 
@@ -60,7 +60,7 @@ for u in result:
         pg = pg + 1
         url = re.sub(re.compile('page=\d+'), 'page=' + str(pg), url)
 
-        response = requests.get(url, headers=ua_random(), timeout=10)
+        response = requests.get(url, headers=ua_random())
         response.close()
         time.sleep(1)
         try:
@@ -68,3 +68,5 @@ for u in result:
         except:
             Operation().insert(table='meituan_error_link', row=url)
             continue
+
+Operation().db_close()

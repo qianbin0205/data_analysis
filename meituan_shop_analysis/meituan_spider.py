@@ -38,7 +38,7 @@ for r in result:
           '&partner=126&riskLevel=1&optimusCode=1&cityName=%E4%B8%8A%E6%B5%B7' \
           '&areaId={}&page=1&userId=764832898'.format(uid)
     pg = 1
-    response = requests.get(url, headers=ua_random(), timeout=10)
+    response = requests.get(url, headers=ua_random())
     response.close()
     time.sleep(1)
     try:
@@ -81,7 +81,7 @@ for r in result:
         pg = pg + 1
         url = re.sub(re.compile('page=\d+'), 'page=' + str(pg), url)
 
-        response = requests.get(url, headers=ua_random(), timeout=10)
+        response = requests.get(url, headers=ua_random())
         response.close()
         time.sleep(1)
         try:
