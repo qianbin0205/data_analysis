@@ -6,7 +6,6 @@ from hashlib import md5
 from meituan_tools import Operation
 from meituan_tools import ua_random
 
-
 s = requests.session()
 s.keep_alive = False
 op = Operation()
@@ -34,7 +33,7 @@ headers = ua_random()
 #             op.insert(table='meituan_area_info', row=row)
 # 二级店铺抓取
 result = op.check_data(table='meituan_area_info',
-                                col='sub_id')
+                       col='sub_id')
 
 for r in result:
     uid = str(r[0])
@@ -71,15 +70,15 @@ for r in result:
             row.insert(0, hashkey)
 
             result = op.check_data(table='meituan_shop_info',
-                                            w_sub={'poi_id': poi_id})
+                                   w_sub={'poi_id': poi_id})
             if result:
                 result_2nd = op.check_data(table='meituan_shop_info',
-                                                    w_sub={'hashkey': hashkey})
+                                           w_sub={'hashkey': hashkey})
                 if result_2nd:
                     continue
                 else:
                     op.update(table='meituan_shop_info',
-                                       row=row)
+                              row=row)
             else:
                 op.insert(table='meituan_shop_info', row=row)
 

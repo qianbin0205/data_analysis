@@ -73,4 +73,5 @@ for u in result:
             time.sleep(5)
             continue
 
+op.delete()
 op.db_close()
