@@ -83,5 +83,5 @@ def err_redo():
     op.db_close()
     if r:
         err_redo()
-        
+
     return
