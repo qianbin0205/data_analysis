@@ -1,8 +1,8 @@
 import requests
 import re
 import time
-import json
 from hashlib import md5
+from meituan_error_spider import err_redo
 from meituan_tools import Operation
 from meituan_tools import ua_random
 
@@ -73,7 +73,8 @@ for r in result:
                                    w_sub={'poi_id': poi_id})
             if result:
                 result_2nd = op.check_data(table='meituan_shop_info',
-                                           w_sub={'hashkey': hashkey})
+                                           w_sub={'hashkey': hashkey,
+                                                  'poi_id': poi_id})
                 if result_2nd:
                     continue
                 else:
@@ -93,5 +94,9 @@ for r in result:
             op.insert(table='meituan_error_link', row=url)
             time.sleep(5)
             continue
-
+s.close()
 op.db_close()
+
+r = 1
+while r:
+    r = err_redo()

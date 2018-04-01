@@ -126,7 +126,7 @@ class Operation:
 
         self._conn.commit()
 
-    def delete(self):
+    def clear_err_link(self):
         cur = self._conn.cursor()
         sql =  '''DELETE FROM meituan_error_link WHERE STATUS = 0'''
         cur.execute(sql)

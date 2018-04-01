@@ -1,11 +1,20 @@
-# import requests
-# import re
-# import time
-# import json
-# from meituan_tools import select_fun, insert_fun, update_fun
+import requests
+import re
+import time
+import json
+from meituan_tools import Operation
+
+
 # from meituan_tools import ua_random
 
-a = 'abc'
+# op = Operation()
+# result = op.check_data(table='meituan_error_link',
+#                        col='url',
+#                        w_sub={'status': 1})
+#
+# print(result)
+# if result:
+#     print(True)
 
-x = tuple(a)
-print(x)
+if 9:
+    print('x')
