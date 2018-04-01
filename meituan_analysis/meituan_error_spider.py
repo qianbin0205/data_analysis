@@ -76,15 +76,12 @@ def err_redo():
                 continue
 
     op.clear_err_link()
-    s.close()
-
     r = op.check_data(table='meituan_error_link',
                       col='url',
                       w_sub={'status': 1})
-    if r:
-        result = 1
-    else:
-        result = 0
-
+    s.close()
     op.db_close()
-    return result
+    if r:
+        err_redo()
+        
+    return

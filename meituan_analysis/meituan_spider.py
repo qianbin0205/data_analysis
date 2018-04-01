@@ -96,7 +96,4 @@ for r in result:
             continue
 s.close()
 op.db_close()
-
-r = 1
-while r:
-    r = err_redo()
+err_redo()
