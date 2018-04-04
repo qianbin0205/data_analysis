@@ -68,19 +68,19 @@ class Operation:
         cur = self._conn.cursor()
         dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        if 'meituan_area_info' in table and len(row) == 7:
+        if 'meituan_classify_info' in table and len(row) == 7:
             row.append(dt)
-            insert_sql = """INSERT INTO meituan_area_info (hashkey,main_id,main_area,sub_id,sub_area,url,entry_date)
-                            VALUES (%s, %s, %s, %s, %s, %s, %s);
+            insert_sql = """INSERT INTO meituan_classify_info (hashkey,main_id,main_name,sub_id,sub_name,url,class_type,entry_date)
+                            VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
                 """
-            print('new_area_insert', row[0])
+            print('new_classify_insert', row[0])
             cur.execute(insert_sql, row)
 
-        elif 'meituan_shop_info' in table and len(row) == 11:
+        elif 'meituan_shop_info' in table and len(row) == 12:
             row.append(dt)
             insert_sql = """INSERT INTO meituan_shop_info (hashkey, poi_id,comment_num,avg_price,
-                            avg_score,address,title,deal_list,url,img_url,sub_id,entry_date)
-                            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                            avg_score,address,title,deal_list,url,img_url,sub_id,class_type,entry_date)
+                            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """
             print('new_shop_insert!', row[0])
             cur.execute(insert_sql, row)
@@ -112,9 +112,10 @@ class Operation:
                   deal_list = "%s",
                   url = "%s",
                   img_url = "%s",
-                  sub_id = %s
+                  sub_id = %s,
+                  class_type = %s
                   ''' % tuple(row) + \
-                  '  where  poi_id = {};'.format(row[1])
+                  '  where  poi_id = {} and sub_id = {};'.format(row[1], row[-2])
             cur.execute(sql)
             print('shop_info_update', row[0])
 
@@ -128,6 +129,6 @@ class Operation:
 
     def clear_err_link(self):
         cur = self._conn.cursor()
-        sql =  '''DELETE FROM meituan_error_link WHERE STATUS = 0'''
+        sql = '''DELETE FROM meituan_error_link WHERE STATUS = 0'''
         cur.execute(sql)
         self._conn.commit()

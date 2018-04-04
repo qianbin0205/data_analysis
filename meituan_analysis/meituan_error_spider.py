@@ -1,3 +1,4 @@
+# _*_coding=gbk
 import requests
 import re
 import time
@@ -17,7 +18,15 @@ def err_redo():
     for u in result:
 
         url = u[0]
-        sub_id = re.findall('areaId=(\d+?)&', url)[0]
+        if 'areaId' in url:
+            sub_id = re.findall('areaId=(\d+?)&', url)[0]
+            class_type = 2
+        elif 'cateId' in url:
+            sub_id = re.findall('cateId=(\d+?)&', url)[0]
+            class_type = 1
+        else:
+            raise KeyError('sub key not in url')
+
         pg = int(re.findall('page=(\d+?)&', url)[0])
 
         op.update(table='meituan_error_link',
@@ -41,16 +50,17 @@ def err_redo():
                 address = pi['address']
                 title = pi['title']
                 tp = [sorted(_.items(), key=lambda _: _[0]) for _ in pi['dealList']]
-                deal_list = re.sub(r"\'|\"", 'â€™', str(tp))
+                deal_list = re.sub(r"\'|\"", "¡¯", str(tp))
                 img_url = pi['frontImg']
 
                 row = [poi_id, comment_num, avg_price, avg_score,
-                       address, title, deal_list, url, img_url, sub_id]
+                       address, title, deal_list, url, img_url, sub_id, class_type]
                 hashkey = md5(''.join(list(map(str, row))).encode('utf-8')).hexdigest()
                 row.insert(0, hashkey)
 
                 result = op.check_data(table='meituan_shop_info',
-                                       w_sub={'poi_id': poi_id})
+                                       w_sub={'poi_id': poi_id,
+                                              'sub_id': sub_id})
                 if result:
                     result_2nd = op.check_data(table='meituan_shop_info',
                                                w_sub={'hashkey': hashkey,
