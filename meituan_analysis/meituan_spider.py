@@ -11,6 +11,7 @@ s = requests.session()
 s.keep_alive = False
 op = Operation()
 headers = ua_random()
+
 # 一级区域大列表抓取
 # response = requests.get(
 #     url='http://sh.meituan.com/meishi/',
