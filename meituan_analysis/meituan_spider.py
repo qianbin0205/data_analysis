@@ -2,7 +2,6 @@
 import requests
 import re
 import time
-import json
 from hashlib import md5
 from meituan_error_spider import err_redo
 from meituan_tools import Operation
@@ -84,8 +83,9 @@ for r in result:
             avg_score = pi['avgScore']
             address = pi['address']
             title = pi['title']
-            tp = [sorted(_.items(), key=lambda _: _[0]) for _ in pi['dealList']]
-            deal_list = re.sub(r"\'|\"", '’', str(tp))
+            tp = str([sorted(_.items(), key=lambda _: _[0]) for _ in pi['dealList']])
+            tp = re.sub('\s+', ' ', tp.replace('’', '‘').replace('\n', ''))
+            deal_list = re.sub(r'\'|\"', '’', tp)
             img_url = pi['frontImg']
 
             row = [poi_id, comment_num, avg_price, avg_score,
@@ -94,12 +94,13 @@ for r in result:
             row.insert(0, hashkey)
 
             result = op.check_data(table='meituan_shop_info',
-                                   w_sub={'poi_id': poi_id,
-                                          'sub_id': sub_id})
+                                   w_sub={'poi_id =': poi_id,
+                                          'sub_id =': sub_id})
             if result:
                 result_2nd = op.check_data(table='meituan_shop_info',
-                                           w_sub={'hashkey': hashkey,
-                                                  'sub_id': sub_id})
+                                           w_sub={'hashkey =': hashkey,
+                                                  'poi_id =': poi_id,
+                                                  'sub_id =': sub_id})
                 if result_2nd:
                     continue
                 else:

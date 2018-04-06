@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caaeb366-596a-4316-9b75-7d5af244b444" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/meituan_analysis/coupons_filter.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_analysis.iml" afterPath="$PROJECT_DIR$/.idea/data_analysis.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/meituan_analysis/meituan_error_spider.py" afterPath="$PROJECT_DIR$/meituan_analysis/meituan_error_spider.py" />
       <change beforePath="$PROJECT_DIR$/meituan_analysis/meituan_spider.py" afterPath="$PROJECT_DIR$/meituan_analysis/meituan_spider.py" />
       <change beforePath="$PROJECT_DIR$/meituan_analysis/meituan_tools.py" afterPath="$PROJECT_DIR$/meituan_analysis/meituan_tools.py" />
       <change beforePath="$PROJECT_DIR$/meituan_analysis/test.py" afterPath="$PROJECT_DIR$/meituan_analysis/test.py" />
-      <change beforePath="$PROJECT_DIR$/pyecharts/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pyecharts/Untitled.ipynb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,12 +21,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/data_analysis$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1522513993486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/data_analysis$test.coverage" NAME="test Coverage Results" MODIFIED="1522847271994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
-    <SUITE FILE_PATH="coverage/data_analysis$meituan_tools.coverage" NAME="meituan_tools Coverage Results" MODIFIED="1522510313875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_shop_analysis" />
+    <SUITE FILE_PATH="coverage/data_analysis$test.coverage" NAME="test Coverage Results" MODIFIED="1523016337897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
     <SUITE FILE_PATH="coverage/data_analysis$meituan_tools__1_.coverage" NAME="meituan_tools (1) Coverage Results" MODIFIED="1522775528200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
-    <SUITE FILE_PATH="coverage/data_analysis$meituan_spider__1_.coverage" NAME="meituan_spider (1) Coverage Results" MODIFIED="1522850165350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
-    <SUITE FILE_PATH="coverage/data_analysis$meituan_spider.coverage" NAME="meituan_spider Coverage Results" MODIFIED="1522508817202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_shop_analysis" />
+    <SUITE FILE_PATH="coverage/data_analysis$meituan_tools.coverage" NAME="meituan_tools Coverage Results" MODIFIED="1522951267801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
+    <SUITE FILE_PATH="coverage/data_analysis$meituan_spider__1_.coverage" NAME="meituan_spider (1) Coverage Results" MODIFIED="1522854884298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
+    <SUITE FILE_PATH="coverage/data_analysis$run.coverage" NAME="run Coverage Results" MODIFIED="1522889651404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ggscrap" />
+    <SUITE FILE_PATH="coverage/data_analysis$coupons_filter.coverage" NAME="coupons_filter Coverage Results" MODIFIED="1523013106563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
     <SUITE FILE_PATH="coverage/data_analysis$meituan_error_spider.coverage" NAME="meituan_error_spider Coverage Results" MODIFIED="1522510686042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_shop_analysis" />
+    <SUITE FILE_PATH="coverage/data_analysis$DeBangZhengQuan.coverage" NAME="DeBangZhengQuan Coverage Results" MODIFIED="1522853423487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ggscrap/FundNavSpiders" />
+    <SUITE FILE_PATH="coverage/data_analysis$meituan_spider.coverage" NAME="meituan_spider Coverage Results" MODIFIED="1522941986776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
     <SUITE FILE_PATH="coverage/data_analysis$meituan_error_spider__1_.coverage" NAME="meituan_error_spider (1) Coverage Results" MODIFIED="1522771077870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
   </component>
   <component name="DatabaseView">
@@ -41,25 +46,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="meituan_spider.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="meituan_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="106" column="29" lean-forward="false" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+            <state relative-caret-position="207">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meituan_analysis/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="23" column="754" lean-forward="false" selection-start-line="23" selection-start-column="754" selection-end-line="23" selection-end-column="754" />
-              <folding>
-                <element signature="e#13#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,33 +61,60 @@
       <file leaf-file-name="meituan_error_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_error_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="115">
+              <caret line="52" column="79" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coupons_filter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meituan_analysis/coupons_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="13" />
               <folding>
-                <element signature="e#16#31#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1523014503324" expanded="true" signature="165:362" ph="select a.poi... meituan_shop_info" />
+                <marker date="1523014503324" expanded="true" signature="242:312" ph="select poi_i... meituan_shop_info" />
+                <marker date="1523014503324" expanded="true" signature="1071:1138" ph="DELETE FROM meituan_coupons_info... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meituan_tools.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="meituan_tools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+            <state relative-caret-position="281">
+              <caret line="105" column="30" lean-forward="false" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1522849126726" expanded="true" signature="3214:3229" ph="select count... missing_value" />
-                <marker date="1522849126726" expanded="true" signature="3214:3238" ph="select count... missing_value" />
-                <marker date="1522849126726" expanded="true" signature="3699:3870" ph="INSERT INTO meituan_area_info... " />
-                <marker date="1522849126726" expanded="true" signature="4100:4361" ph="INSERT INTO meituan_shop_info... " />
-                <marker date="1522849126726" expanded="true" signature="4542:4628" ph="INSERT INTO meituan_shop_info... " />
-                <marker date="1522849126726" expanded="true" signature="4542:4632" ph="INSERT INTO meituan_error_link... " />
-                <marker date="1522849126726" expanded="true" signature="4941:5466" ph="update missing_value s... " />
-                <marker date="1522849126726" expanded="true" signature="4941:5474" ph="update missing_value s... " />
-                <marker date="1522849126726" expanded="true" signature="4941:5475" ph="update missing_value s... " />
-                <marker date="1522849126726" expanded="true" signature="5653:5709" ph="update {} se... " />
-                <marker date="1522849126726" expanded="true" signature="5918:5965" ph="DELETE FROM meituan_error_link... " />
+                <marker date="1523013106313" expanded="true" signature="3333:3348" ph="select count... missing_value" />
+                <marker date="1523013106313" expanded="true" signature="3333:3357" ph="select count... missing_value" />
+                <marker date="1523013106313" expanded="true" signature="3818:3989" ph="INSERT INTO meituan_area_info... " />
+                <marker date="1523013106313" expanded="true" signature="4219:4480" ph="INSERT INTO meituan_shop_info... " />
+                <marker date="1523013106313" expanded="true" signature="4661:4747" ph="INSERT INTO meituan_shop_info... " />
+                <marker date="1523013106313" expanded="true" signature="4661:4751" ph="INSERT INTO meituan_error_link... " />
+                <marker date="1523013106313" expanded="true" signature="4960:5113" ph="INSERT INTO meituan_coupons_info... " />
+                <marker date="1523013106313" expanded="true" signature="5424:5949" ph="update missing_value s... " />
+                <marker date="1523013106313" expanded="true" signature="5424:5957" ph="update missing_value s... " />
+                <marker date="1523013106313" expanded="true" signature="5424:5958" ph="update missing_value s... " />
+                <marker date="1523013106313" expanded="true" signature="6136:6192" ph="update {} se... " />
+                <marker date="1523013106313" expanded="true" signature="6356:6655" ph="update missing_value... " />
+                <marker date="1523013106313" expanded="true" signature="6999:7046" ph="DELETE FROM meituan_error_link... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meituan_analysis/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1523016337777" expanded="true" signature="945:1008" ph="DELETE FROM meituan_coupons_info... " />
               </folding>
             </state>
           </provider>
@@ -129,9 +149,13 @@
         <option value="$PROJECT_DIR$/meituan_shop_analysis/meituan_spider.py" />
         <option value="$PROJECT_DIR$/meituan_shop_analysis/meituan_tools.py" />
         <option value="$PROJECT_DIR$/meituan_shop_analysis/meituan_error_spider.py" />
+        <option value="$PROJECT_DIR$/../ggscrap/FundNavSpiders/DeBangZhengQuan.py" />
+        <option value="$PROJECT_DIR$/../ggscrap/run.py" />
+        <option value="$PROJECT_DIR$/../ggscrap/FundNavSpiders/Login/201804_cyt_CesFutures.py" />
         <option value="$PROJECT_DIR$/meituan_analysis/meituan_error_spider.py" />
-        <option value="$PROJECT_DIR$/meituan_analysis/test.py" />
         <option value="$PROJECT_DIR$/meituan_analysis/meituan_tools.py" />
+        <option value="$PROJECT_DIR$/meituan_analysis/coupons_filter.py" />
+        <option value="$PROJECT_DIR$/meituan_analysis/test.py" />
         <option value="$PROJECT_DIR$/meituan_analysis/meituan_spider.py" />
       </list>
     </option>
@@ -148,7 +172,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="9" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
@@ -169,7 +193,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -187,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -201,16 +224,27 @@
               <item name="data_analysis" type="462c0819:PsiDirectoryNode" />
               <item name="meituan_analysis" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ggscrap" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ggscrap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeRepository\ggscrap\FundNavSpiders\Login" />
+      <recent name="D:\CodeRepository\ggscrap\FundNavSpiders" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,8 +258,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.meituan_spider (1)">
-    <configuration name="meituan_error_spider (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="coupons_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -238,32 +272,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="data_analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meituan_analysis/meituan_error_spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meituan_analysis/coupons_filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="meituan_error_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meituan_shop_analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_analysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meituan_shop_analysis/meituan_error_spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="meituan_spider (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="meituan_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -282,7 +297,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="meituan_tools (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="meituan_tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -296,6 +311,25 @@
       <module name="data_analysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meituan_analysis/meituan_tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ggscrap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ggscrap" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ggscrap/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,19 +373,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.data_analysis" />
-      <item index="1" class="java.lang.String" itemvalue="Python.meituan_error_spider" />
-      <item index="2" class="java.lang.String" itemvalue="Python.meituan_spider (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.meituan_error_spider (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
-      <item index="5" class="java.lang.String" itemvalue="Python.meituan_tools (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.meituan_spider" />
+      <item index="2" class="java.lang.String" itemvalue="Python.run" />
+      <item index="3" class="java.lang.String" itemvalue="Python.coupons_filter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.meituan_tools" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.meituan_spider (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.meituan_tools (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.meituan_error_spider (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.meituan_error_spider" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.coupons_filter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.meituan_tools" />
+        <item index="3" class="java.lang.String" itemvalue="Python.meituan_spider" />
+        <item index="4" class="java.lang.String" itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -372,22 +406,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="9" width="1364" height="726" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39388794" sideWeight="0.50460124" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38709676" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47769314" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17177914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11727079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39388794" sideWeight="0.49539876" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3373232" sideWeight="0.49539876" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -433,6 +468,9 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -440,11 +478,21 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1863">
@@ -459,9 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="19" column="13167" lean-forward="false" selection-start-line="19" selection-start-column="13167" selection-end-line="19" selection-end-column="13167" />
-          <folding>
-            <element signature="e#13#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,7 +515,7 @@
         <state relative-caret-position="1150">
           <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,18 +525,19 @@
         <state relative-caret-position="1886">
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1522849126726" expanded="true" signature="3214:3229" ph="select count... missing_value" />
-            <marker date="1522849126726" expanded="true" signature="3214:3238" ph="select count... missing_value" />
-            <marker date="1522849126726" expanded="true" signature="3699:3870" ph="INSERT INTO meituan_area_info... " />
-            <marker date="1522849126726" expanded="true" signature="4100:4361" ph="INSERT INTO meituan_shop_info... " />
-            <marker date="1522849126726" expanded="true" signature="4542:4628" ph="INSERT INTO meituan_shop_info... " />
-            <marker date="1522849126726" expanded="true" signature="4542:4632" ph="INSERT INTO meituan_error_link... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5466" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5474" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5475" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="5653:5709" ph="update {} se... " />
-            <marker date="1522849126726" expanded="true" signature="5918:5965" ph="DELETE FROM meituan_error_link... " />
+            <marker date="1523013106313" expanded="true" signature="3333:3348" ph="select count... missing_value" />
+            <marker date="1523013106313" expanded="true" signature="3333:3357" ph="select count... missing_value" />
+            <marker date="1523013106313" expanded="true" signature="3818:3989" ph="INSERT INTO meituan_area_info... " />
+            <marker date="1523013106313" expanded="true" signature="4219:4480" ph="INSERT INTO meituan_shop_info... " />
+            <marker date="1523013106313" expanded="true" signature="4661:4747" ph="INSERT INTO meituan_shop_info... " />
+            <marker date="1523013106313" expanded="true" signature="4661:4751" ph="INSERT INTO meituan_error_link... " />
+            <marker date="1523013106313" expanded="true" signature="4960:5113" ph="INSERT INTO meituan_coupons_info... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5949" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5957" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5958" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="6136:6192" ph="update {} se... " />
+            <marker date="1523013106313" expanded="true" signature="6356:6655" ph="update missing_value... " />
+            <marker date="1523013106313" expanded="true" signature="6999:7046" ph="DELETE FROM meituan_error_link... " />
           </folding>
         </state>
       </provider>
@@ -511,7 +557,7 @@
         <state relative-caret-position="1334">
           <caret line="63" column="65" lean-forward="true" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -544,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="276" column="27" lean-forward="true" selection-start-line="276" selection-start-column="27" selection-end-line="276" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,18 +598,19 @@
         <state relative-caret-position="2530">
           <caret line="110" column="31" lean-forward="true" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1522849126726" expanded="true" signature="3214:3229" ph="select count... missing_value" />
-            <marker date="1522849126726" expanded="true" signature="3214:3238" ph="select count... missing_value" />
-            <marker date="1522849126726" expanded="true" signature="3699:3870" ph="INSERT INTO meituan_area_info... " />
-            <marker date="1522849126726" expanded="true" signature="4100:4361" ph="INSERT INTO meituan_shop_info... " />
-            <marker date="1522849126726" expanded="true" signature="4542:4628" ph="INSERT INTO meituan_shop_info... " />
-            <marker date="1522849126726" expanded="true" signature="4542:4632" ph="INSERT INTO meituan_error_link... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5466" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5474" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5475" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="5653:5709" ph="update {} se... " />
-            <marker date="1522849126726" expanded="true" signature="5918:5965" ph="DELETE FROM meituan_error_link... " />
+            <marker date="1523013106313" expanded="true" signature="3333:3348" ph="select count... missing_value" />
+            <marker date="1523013106313" expanded="true" signature="3333:3357" ph="select count... missing_value" />
+            <marker date="1523013106313" expanded="true" signature="3818:3989" ph="INSERT INTO meituan_area_info... " />
+            <marker date="1523013106313" expanded="true" signature="4219:4480" ph="INSERT INTO meituan_shop_info... " />
+            <marker date="1523013106313" expanded="true" signature="4661:4747" ph="INSERT INTO meituan_shop_info... " />
+            <marker date="1523013106313" expanded="true" signature="4661:4751" ph="INSERT INTO meituan_error_link... " />
+            <marker date="1523013106313" expanded="true" signature="4960:5113" ph="INSERT INTO meituan_coupons_info... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5949" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5957" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5958" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="6136:6192" ph="update {} se... " />
+            <marker date="1523013106313" expanded="true" signature="6356:6655" ph="update missing_value... " />
+            <marker date="1523013106313" expanded="true" signature="6999:7046" ph="DELETE FROM meituan_error_link... " />
           </folding>
         </state>
       </provider>
@@ -573,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,14 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_report.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -618,53 +653,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_error_spider.py">
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/DingXinHuiJin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/twisted/internet/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="516" column="0" lean-forward="false" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/Login/DaPuAseet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/scrapy/http/request/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/Login/CesFutures_payload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/DeBangZhengQuan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_report.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="105" column="30" lean-forward="false" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <marker date="1523013106313" expanded="true" signature="3333:3348" ph="select count... missing_value" />
+            <marker date="1523013106313" expanded="true" signature="3333:3357" ph="select count... missing_value" />
+            <marker date="1523013106313" expanded="true" signature="3818:3989" ph="INSERT INTO meituan_area_info... " />
+            <marker date="1523013106313" expanded="true" signature="4219:4480" ph="INSERT INTO meituan_shop_info... " />
+            <marker date="1523013106313" expanded="true" signature="4661:4747" ph="INSERT INTO meituan_shop_info... " />
+            <marker date="1523013106313" expanded="true" signature="4661:4751" ph="INSERT INTO meituan_error_link... " />
+            <marker date="1523013106313" expanded="true" signature="4960:5113" ph="INSERT INTO meituan_coupons_info... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5949" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5957" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5958" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="6136:6192" ph="update {} se... " />
+            <marker date="1523013106313" expanded="true" signature="6356:6655" ph="update missing_value... " />
+            <marker date="1523013106313" expanded="true" signature="6999:7046" ph="DELETE FROM meituan_error_link... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meituan_analysis/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="23" column="754" lean-forward="false" selection-start-line="23" selection-start-column="754" selection-end-line="23" selection-end-column="754" />
+        <state relative-caret-position="278">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#13#28#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1523016337777" expanded="true" signature="945:1008" ph="DELETE FROM meituan_coupons_info... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/coupons_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1523014503324" expanded="true" signature="165:362" ph="select a.poi... meituan_shop_info" />
+            <marker date="1523014503324" expanded="true" signature="242:312" ph="select poi_i... meituan_shop_info" />
+            <marker date="1523014503324" expanded="true" signature="1071:1138" ph="DELETE FROM meituan_coupons_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_error_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="52" column="79" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="106" column="29" lean-forward="false" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+        <state relative-caret-position="207">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1522849126726" expanded="true" signature="3214:3229" ph="select count... missing_value" />
-            <marker date="1522849126726" expanded="true" signature="3214:3238" ph="select count... missing_value" />
-            <marker date="1522849126726" expanded="true" signature="3699:3870" ph="INSERT INTO meituan_area_info... " />
-            <marker date="1522849126726" expanded="true" signature="4100:4361" ph="INSERT INTO meituan_shop_info... " />
-            <marker date="1522849126726" expanded="true" signature="4542:4628" ph="INSERT INTO meituan_shop_info... " />
-            <marker date="1522849126726" expanded="true" signature="4542:4632" ph="INSERT INTO meituan_error_link... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5466" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5474" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="4941:5475" ph="update missing_value s... " />
-            <marker date="1522849126726" expanded="true" signature="5653:5709" ph="update {} se... " />
-            <marker date="1522849126726" expanded="true" signature="5918:5965" ph="DELETE FROM meituan_error_link... " />
           </folding>
         </state>
       </provider>

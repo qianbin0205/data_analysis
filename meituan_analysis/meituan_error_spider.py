@@ -49,8 +49,9 @@ def err_redo():
                 avg_score = pi['avgScore']
                 address = pi['address']
                 title = pi['title']
-                tp = [sorted(_.items(), key=lambda _: _[0]) for _ in pi['dealList']]
-                deal_list = re.sub(r"\'|\"", "¡¯", str(tp))
+                tp = str([sorted(_.items(), key=lambda _: _[0]) for _ in pi['dealList']])
+                tp = re.sub('\s+', ' ', tp.replace('¡¯', '¡®').replace('\n', ''))
+                deal_list = re.sub(r'\'|\"', '¡¯', tp)
                 img_url = pi['frontImg']
 
                 row = [poi_id, comment_num, avg_price, avg_score,
@@ -59,12 +60,12 @@ def err_redo():
                 row.insert(0, hashkey)
 
                 result = op.check_data(table='meituan_shop_info',
-                                       w_sub={'poi_id': poi_id,
-                                              'sub_id': sub_id})
+                                       w_sub={'poi_id =': poi_id,
+                                              'sub_id =': sub_id})
                 if result:
                     result_2nd = op.check_data(table='meituan_shop_info',
-                                               w_sub={'hashkey': hashkey,
-                                                      'poi_id': poi_id})
+                                               w_sub={'hashkey =': hashkey,
+                                                      'poi_id =': poi_id})
                     if result_2nd:
                         continue
                     else:
@@ -88,7 +89,7 @@ def err_redo():
     op.clear_err_link()
     r = op.check_data(table='meituan_error_link',
                       col='url',
-                      w_sub={'status': 1})
+                      w_sub={'status =': 1})
     s.close()
     op.db_close()
     if r:

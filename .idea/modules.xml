@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/data_analysis.iml" filepath="$PROJECT_DIR$/.idea/data_analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ggscrap/.idea/ggscrap.iml" filepath="$PROJECT_DIR$/../ggscrap/.idea/ggscrap.iml" />
     </modules>
   </component>
 </project>

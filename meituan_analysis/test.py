@@ -1,26 +1,44 @@
-# coding=gbk
-import requests
-import re
 import time
-import json
 from meituan_tools import Operation
-from hashlib import md5
+import json
+import re
+from collections import Counter
+from functools import reduce
 
-# from meituan_tools import ua_random
 
-# op = Operation()
-# result = op.check_data(table='meituan_error_link',
-#                        col='url',
-#                        w_sub={'status': 1})
-#
-# print(result)
-# if result:
-#     print(True)
+def del_duplicate(li):
+    temp_list = list(set([str(i) for i in li]))
+    li = [eval(i) for i in temp_list]
+    return li
 
-a = [3245331, 5116, 26, 3.1, 'ËÉ½­ÇøÔÀÑô½ÖµÀÈÙÀÖÖĞÂ·´óÈó·¢³¬ÊĞÊ×²ã552-652ºÅ£¨ÈÙÀÖÖĞÂ·Î÷ÁÖ±±Â·£©', 'ÃÉ×ÔÔ´£¨ËÉ½­´óÈó·¢µê£©', '[[(¡¯price¡¯, 18), (¡¯soldCounts¡¯, 273527), (¡¯title¡¯, ¡¯20Ôª´ú½ğÈ¯1ÕÅ£¬¿Éµş¼Ó¡¯)], [(¡¯price¡¯, 43.5), (¡¯soldCounts¡¯, 281890), (¡¯title¡¯, ¡¯50Ôª´ú½ğÈ¯1ÕÅ£¬¿Éµş¼Ó¡¯)], [(¡¯price¡¯, 22), (¡¯soldCounts¡¯, 147724), (¡¯title¡¯, ¡¯¾úÏã¹ıÇÅÃ×Ïß1·İ¡¯)], [(¡¯price¡¯, 29), (¡¯soldCounts¡¯, 96562), (¡¯title¡¯, ¡¯·¬ÇÑÅ£Èâ¹ıÇÅÃ×Ïß+ÊÖ¹¤Å£Èâ±ı1·İ¡¯)], [(¡¯price¡¯, 25), (¡¯soldCounts¡¯, 83350), (¡¯title¡¯, ¡¯´öÎ¶ËáÌÀÃ×Ïß+»ØÎ¶ËØ´®´®1·İ¡¯)], [(¡¯price¡¯, 22), (¡¯soldCounts¡¯, 87941), (¡¯title¡¯, ¡¯·ÊÅ£¹ıÇÅ·¹+Ğ¡Ä¾¶ú+½ğ½ÛÄûÃÊ²è1·İ¡¯)], [(¡¯price¡¯, 35), (¡¯soldCounts¡¯, 5669), (¡¯title¡¯, ¡¯ËÉÈ×ÍÁ¼¦Ã×Ïß+»ØÎ¶ËØ´®´®1·İ¡¯)]]', 'http://sh.meituan.com/meishi/api/poi/getPoiList?uuid=9ea17e3be2df43eb9d29.1521878630.3.0.1&platform=1&partner=126&riskLevel=1&optimusCode=1&cityName=%E4%B8%8A%E6%B5%B7&cateId=60&page=1&userId=764832898', 'http://p0.meituan.net/600.600/deal/0b23240b3a5f3ed86623664f96a7067c173651.jpg', '60', 1]
-hashkey = md5(''.join(list(map(str, a))).encode('utf-8')).hexdigest()
-print(hashkey)
 
-a = [3245331, 5116, 26, 3.1, 'ËÉ½­ÇøÔÀÑô½ÖµÀÈÙÀÖÖĞÂ·´óÈó·¢³¬ÊĞÊ×²ã552-652ºÅ£¨ÈÙÀÖÖĞÂ·Î÷ÁÖ±±Â·£©', 'ÃÉ×ÔÔ´£¨ËÉ½­´óÈó·¢µê£©', '[[(¡¯price¡¯, 18), (¡¯soldCounts¡¯, 273527), (¡¯title¡¯, ¡¯20Ôª´ú½ğÈ¯1ÕÅ£¬¿Éµş¼Ó¡¯)], [(¡¯price¡¯, 43.5), (¡¯soldCounts¡¯, 281890), (¡¯title¡¯, ¡¯50Ôª´ú½ğÈ¯1ÕÅ£¬¿Éµş¼Ó¡¯)], [(¡¯price¡¯, 22), (¡¯soldCounts¡¯, 147724), (¡¯title¡¯, ¡¯¾úÏã¹ıÇÅÃ×Ïß1·İ¡¯)], [(¡¯price¡¯, 29), (¡¯soldCounts¡¯, 96562), (¡¯title¡¯, ¡¯·¬ÇÑÅ£Èâ¹ıÇÅÃ×Ïß+ÊÖ¹¤Å£Èâ±ı1·İ¡¯)], [(¡¯price¡¯, 25), (¡¯soldCounts¡¯, 83350), (¡¯title¡¯, ¡¯´öÎ¶ËáÌÀÃ×Ïß+»ØÎ¶ËØ´®´®1·İ¡¯)], [(¡¯price¡¯, 22), (¡¯soldCounts¡¯, 87941), (¡¯title¡¯, ¡¯·ÊÅ£¹ıÇÅ·¹+Ğ¡Ä¾¶ú+½ğ½ÛÄûÃÊ²è1·İ¡¯)], [(¡¯price¡¯, 35), (¡¯soldCounts¡¯, 5669), (¡¯title¡¯, ¡¯ËÉÈ×ÍÁ¼¦Ã×Ïß+»ØÎ¶ËØ´®´®1·İ¡¯)]]', 'http://sh.meituan.com/meishi/api/poi/getPoiList?uuid=9ea17e3be2df43eb9d29.1521878630.3.0.1&platform=1&partner=126&riskLevel=1&optimusCode=1&cityName=%E4%B8%8A%E6%B5%B7&cateId=60&page=1&userId=764832898', 'http://p0.meituan.net/600.600/deal/0b23240b3a5f3ed86623664f96a7067c173651.jpg', '60', 2]
-hashkey = md5(''.join(list(map(str, a))).encode('utf-8')).hexdigest()
-print(hashkey)
+op = Operation()
+conn = op.db_conn()
+cur = conn.cursor()
+d = '''[[(â€™priceâ€™, 88), (â€™soldCountsâ€™, 0), (â€™titleâ€™, â€™SCHNITZEL â€˜VIENNA STYLEâ€˜ WITH POTATO SALAD çŒªæ’æ— é™é‡ä¾›åº”é…åœŸè±†æ²™æ‹‰1ä»½â€™)], [(â€™priceâ€™, 198), (â€™soldCountsâ€™, 0), (â€™titleâ€™, â€™å‘¨ä¸€çƒ¤çŒªè‚˜å¥—é¤ï¼Œå»ºè®®å•äººä½¿ç”¨â€™)], [(â€™priceâ€™, 58), (â€™soldCountsâ€™, 1), (â€™titleâ€™, â€™å•†åŠ¡åˆå¸‚å¥—é¤1ä»½â€™)], [(â€™priceâ€™, 528), (â€™soldCountsâ€™, 0), (â€™titleâ€™, â€™è¶…å€¼å››äººå¥—é¤ï¼Œæä¾›å…è´¹WiFiâ€™)], [(â€™priceâ€™, 898), (â€™soldCountsâ€™, 0), (â€™titleâ€™, â€™è¶…å€¼å…­äººå¥—é¤ï¼Œæä¾›å…è´¹WiFiâ€™)]]
+'''
+tp_d = re.sub('\s+', ' ', d.replace('â€™', '"').replace('\n', ''))
+deal = del_duplicate(eval(tp_d))
+for i in deal:
+    poi_id = 158806754
+    price = i[0][1]
+    sold_coounts = i[1][1]
+    title = i[2][1]
+    stamp = '2018-04-05 17:55:48'
+
+    sql = '''DELETE FROM meituan_coupons_info 
+              where poi_id = {}'''.format(poi_id)
+    cur.execute(sql)
+    conn.commit()
+
+    for e, i in enumerate(deal):
+        price = i[0][1]
+        sold_coounts = i[1][1]
+        title = i[2][1]
+        coup_id = e + 1
+
+        row = [poi_id, coup_id, title, price, sold_coounts, stamp]
+        op.insert(table='meituan_coupons_info',
+                  row=row)
+
+        conn.commit()

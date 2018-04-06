@@ -3,6 +3,12 @@ from datetime import datetime
 from fake_useragent import UserAgent
 
 
+def del_duplicate(li):
+    temp_list = list(set([str(i) for i in li]))
+    li = [eval(i) for i in temp_list]
+    return li
+
+
 def ua_random():
     headers = {
         "User-Agent": UserAgent().Chrome,
@@ -47,7 +53,7 @@ class Operation:
 
     def check_data(self, table, col='count(*)', w_sub=None):
         if w_sub and isinstance(w_sub, dict):
-            t = [k + ' = ' + '"' + str(w_sub[k]) + '"' for k in w_sub]
+            t = [k + ' "' + str(w_sub[k]) + '" ' for k in w_sub]
             if len(t) > 1:
                 sub = ' and '.join(t)
             else:
@@ -89,9 +95,16 @@ class Operation:
             insert_sql = """INSERT INTO meituan_error_link (url,entry_date)
                             VALUES (%s,%s)
                 """
-            r = (row, dt)
+            row = (row, dt)
             print('error_link_insert', row)
-            cur.execute(insert_sql, r)
+            cur.execute(insert_sql, row)
+
+        elif 'meituan_coupons_info' in table:
+            insert_sql = """INSERT INTO meituan_coupons_info (poi_id,coup_id,title,price,sold_counts,publish_date)
+                                        VALUES (%s,%s,%s,%s,%s,%s)
+                            """
+            # print('new_coupons_insert', row[0], row[1])
+            cur.execute(insert_sql, row)
 
         cur.close()
         self._conn.commit()
@@ -124,6 +137,22 @@ class Operation:
 
             cur.execute(sql)
             print('link_status_update', row)
+
+        elif 'meituan_coupons_info' in table:
+            sql = 'update {} '.format(table) + \
+                  '''set 
+                  poi_id = %s,
+                  title = "%s",
+                  price = %s,
+                  sold_counts = %s,
+                  publish_date = "%s"
+                   ''' % tuple(row) + \
+                  'WHERE poi_id = {} and publish_date = "{}"'.format(str(row[0]), row[-1])
+            print('coupons_info_update', row[0], row[-1])
+            try:
+                cur.execute(sql)
+            except MySQLdb.IntegrityError:
+                print(sql)
 
         self._conn.commit()
 
