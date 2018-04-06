@@ -14,7 +14,7 @@ def err_redo():
     headers = ua_random()
     result = op.check_data(table='meituan_error_link',
                            col='url',
-                           w_sub={'status': 1})
+                           w_sub={'status =': 1})
     for u in result:
 
         url = u[0]
