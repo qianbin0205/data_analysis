@@ -39,8 +39,7 @@ for i in cur.fetchall():
     map_str = data_reg.findall(response.text)[0]
     map_json = json.loads(map_str)
     r = [poi_id, addr, url]
-
-    if map_json['result']:
+    if map_json['status'] == 0:
         # 经度值
         r.append(map_json['result']['location']['lng'])
         # 纬度值
@@ -54,6 +53,7 @@ for i in cur.fetchall():
     else:
         r.extend([None] * 5)
         print('extract miss')
+
     # 返回结果状态值， 成功返回0，其他值请查看下方返回码状态表
     r.append(map_json['status'])
     r.append(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))

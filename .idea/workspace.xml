@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caaeb366-596a-4316-9b75-7d5af244b444" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/meituan_analysis/baidu_hotmap_point.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../ggscrap/FundNavSpiders/Cookie/GuangFaAsset.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../ggscrap/FundNavSpiders/DaoTongFutures.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/meituan_analysis/.ipynb_checkpoints/meituan_report-checkpoint.ipynb" afterPath="$PROJECT_DIR$/meituan_analysis/.ipynb_checkpoints/meituan_report-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/meituan_analysis/meituan_report.ipynb" afterPath="$PROJECT_DIR$/meituan_analysis/meituan_report.ipynb" />
-      <change beforePath="$PROJECT_DIR$/meituan_analysis/test.py" afterPath="$PROJECT_DIR$/meituan_analysis/test.py" />
+      <change beforePath="$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py" afterPath="$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py" />
+      <change beforePath="$PROJECT_DIR$/../ggscrap/run.py" afterPath="$PROJECT_DIR$/../ggscrap/run.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +18,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/data_analysis$test.coverage" NAME="test Coverage Results" MODIFIED="1523674872992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
-    <SUITE FILE_PATH="coverage/data_analysis$run.coverage" NAME="run Coverage Results" MODIFIED="1522889651404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ggscrap" />
-    <SUITE FILE_PATH="coverage/data_analysis$baidu_shop_map.coverage" NAME="baidu_shop_map Coverage Results" MODIFIED="1523730171818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
+    <SUITE FILE_PATH="coverage/data_analysis$baidu_shop_map.coverage" NAME="baidu_shop_map Coverage Results" MODIFIED="1523880002155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
+    <SUITE FILE_PATH="coverage/data_analysis$run.coverage" NAME="run Coverage Results" MODIFIED="1524061189270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ggscrap" />
     <SUITE FILE_PATH="coverage/data_analysis$coupons_filter.coverage" NAME="coupons_filter Coverage Results" MODIFIED="1523189131403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
     <SUITE FILE_PATH="coverage/data_analysis$baidu_hotmap_point.coverage" NAME="baidu_hotmap_point Coverage Results" MODIFIED="1523730779441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_analysis" />
     <SUITE FILE_PATH="coverage/data_analysis$meituan_error_spider.coverage" NAME="meituan_error_spider Coverage Results" MODIFIED="1522510686042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan_shop_analysis" />
@@ -46,66 +46,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="baidu_shop_map.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py">
+      <file leaf-file-name="DeBangZhengQuan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/DeBangZhengQuan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="-138">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuangFaAsset.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/Cookie/GuangFaAsset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1523730171466" expanded="true" signature="186:451" ph="select disti... meituan_shop_info" />
-                <marker date="1523730171466" expanded="true" signature="186:452" ph="select disti... meituan_shop_info" />
-                <marker date="1523730171466" expanded="true" signature="473:658" ph="INSERT INTO meituan_shop_map... " />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meituan_analysis/test.py">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ggscrap/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meituan_tools.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="156" column="27" lean-forward="false" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
-              <folding>
-                <marker date="1523013106313" expanded="true" signature="3333:3348" ph="select count... missing_value" />
-                <marker date="1523013106313" expanded="true" signature="3333:3357" ph="select count... missing_value" />
-                <marker date="1523013106313" expanded="true" signature="3818:3989" ph="INSERT INTO meituan_area_info... " />
-                <marker date="1523013106313" expanded="true" signature="4219:4480" ph="INSERT INTO meituan_shop_info... " />
-                <marker date="1523013106313" expanded="true" signature="4661:4747" ph="INSERT INTO meituan_shop_info... " />
-                <marker date="1523013106313" expanded="true" signature="4661:4751" ph="INSERT INTO meituan_error_link... " />
-                <marker date="1523013106313" expanded="true" signature="4960:5113" ph="INSERT INTO meituan_coupons_info... " />
-                <marker date="1523013106313" expanded="true" signature="5424:5949" ph="update missing_value s... " />
-                <marker date="1523013106313" expanded="true" signature="5424:5957" ph="update missing_value s... " />
-                <marker date="1523013106313" expanded="true" signature="5424:5958" ph="update missing_value s... " />
-                <marker date="1523013106313" expanded="true" signature="6136:6192" ph="update {} se... " />
-                <marker date="1523013106313" expanded="true" signature="6356:6655" ph="update missing_value... " />
-                <marker date="1523013106313" expanded="true" signature="6999:7046" ph="DELETE FROM meituan_error_link... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baidu_hotmap_point.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/meituan_analysis/baidu_hotmap_point.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1523730779360" expanded="true" signature="124:336" ph="select round... meituan_shop_map" />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,11 +97,12 @@
       <find>main_area</find>
       <find>sub_area</find>
       <find>get</find>
+      <find>strong</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ggscrap" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,7 +112,6 @@
         <option value="$PROJECT_DIR$/meituan_shop_analysis/meituan_tools.py" />
         <option value="$PROJECT_DIR$/meituan_shop_analysis/meituan_error_spider.py" />
         <option value="$PROJECT_DIR$/../ggscrap/FundNavSpiders/DeBangZhengQuan.py" />
-        <option value="$PROJECT_DIR$/../ggscrap/run.py" />
         <option value="$PROJECT_DIR$/../ggscrap/FundNavSpiders/Login/201804_cyt_CesFutures.py" />
         <option value="$PROJECT_DIR$/meituan_analysis/coupons_filter.py" />
         <option value="$PROJECT_DIR$/meituan_analysis/meituan_spider.py" />
@@ -154,8 +122,13 @@
         <option value="$PROJECT_DIR$/meituan_analysis/shop_baidu_map.py" />
         <option value="$PROJECT_DIR$/meituan_analysis/hotmap.json" />
         <option value="$PROJECT_DIR$/meituan_analysis/baidu_hotmap.html" />
-        <option value="$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py" />
         <option value="$PROJECT_DIR$/meituan_analysis/baidu_hotmap_point.py" />
+        <option value="$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py" />
+        <option value="$PROJECT_DIR$/../ggscrap/FundNavSpiders/Login/DeBonCapital.py" />
+        <option value="$PROJECT_DIR$/../ggscrap/FundNavSpiders/t.html" />
+        <option value="$PROJECT_DIR$/../ggscrap/FundNavSpiders/DaoTongFutures.py" />
+        <option value="$PROJECT_DIR$/../ggscrap/run.py" />
+        <option value="$PROJECT_DIR$/../ggscrap/FundNavSpiders/Cookie/GuangFaAsset.py" />
       </list>
     </option>
   </component>
@@ -171,7 +144,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="9" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
@@ -215,21 +188,18 @@
           <expand>
             <path>
               <item name="data_analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="meituan_analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="pyecharts" type="462c0819:PsiDirectoryNode" />
+              <item name="ggscrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="ggscrap" type="462c0819:PsiDirectoryNode" />
+              <item name="FundNavSpiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ggscrap" type="462c0819:PsiDirectoryNode" />
+              <item name="FundNavSpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="Cookie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,13 +210,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ggscrap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeRepository\ggscrap\FundNavSpiders" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeRepository\ggscrap\FundNavSpiders\Cookie" />
       <recent name="D:\CodeRepository\ggscrap\FundNavSpiders\Login" />
       <recent name="D:\CodeRepository\ggscrap\FundNavSpiders" />
     </key>
@@ -263,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.baidu_hotmap_point">
+  <component name="RunManager" selected="Python.run">
     <configuration name="baidu_hotmap_point" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,20 +276,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="coupons_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meituan_analysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ggscrap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_analysis" />
+      <module name="ggscrap" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meituan_analysis/coupons_filter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ggscrap/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,19 +352,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.data_analysis" />
-      <item index="1" class="java.lang.String" itemvalue="Python.coupons_filter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.shop_baidu_map" />
-      <item index="4" class="java.lang.String" itemvalue="Python.baidu_hotmap_point" />
-      <item index="5" class="java.lang.String" itemvalue="Python.baidu_shop_map" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.shop_baidu_map" />
+      <item index="3" class="java.lang.String" itemvalue="Python.baidu_hotmap_point" />
+      <item index="4" class="java.lang.String" itemvalue="Python.baidu_shop_map" />
+      <item index="5" class="java.lang.String" itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.baidu_hotmap_point" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run" />
         <item index="1" class="java.lang.String" itemvalue="Python.baidu_shop_map" />
-        <item index="2" class="java.lang.String" itemvalue="Python.shop_baidu_map" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.coupons_filter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.baidu_hotmap_point" />
+        <item index="3" class="java.lang.String" itemvalue="Python.shop_baidu_map" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523119111011</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="......">
+      <created>1523789049570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523789049571</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -456,30 +437,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47769314" sideWeight="0.50586355" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4250412" sideWeight="0.5075643" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37397036" sideWeight="0.49413645" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6044143" sideWeight="0.49413645" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16414523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16263238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47611204" sideWeight="0.49539876" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3789127" sideWeight="0.4924357" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -529,17 +510,61 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="87" />
+      <option name="time" value="104" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+            <marker date="1523879843427" expanded="true" signature="186:451" ph="select disti... meituan_shop_info" />
+            <marker date="1523879843427" expanded="true" signature="186:452" ph="select disti... meituan_shop_info" />
+            <marker date="1523879843427" expanded="true" signature="473:658" ph="INSERT INTO meituan_shop_map... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3657">
+          <caret line="159" column="33" lean-forward="true" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
+          <folding>
+            <marker date="1523013106313" expanded="true" signature="3333:3348" ph="select count... missing_value" />
+            <marker date="1523013106313" expanded="true" signature="3333:3357" ph="select count... missing_value" />
+            <marker date="1523013106313" expanded="true" signature="3818:3989" ph="INSERT INTO meituan_area_info... " />
+            <marker date="1523013106313" expanded="true" signature="4219:4480" ph="INSERT INTO meituan_shop_info... " />
+            <marker date="1523013106313" expanded="true" signature="4661:4747" ph="INSERT INTO meituan_shop_info... " />
+            <marker date="1523013106313" expanded="true" signature="4661:4751" ph="INSERT INTO meituan_error_link... " />
+            <marker date="1523013106313" expanded="true" signature="4960:5113" ph="INSERT INTO meituan_coupons_info... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5949" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5957" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="5424:5958" ph="update missing_value s... " />
+            <marker date="1523013106313" expanded="true" signature="6136:6192" ph="update {} se... " />
+            <marker date="1523013106313" expanded="true" signature="6356:6655" ph="update missing_value... " />
+            <marker date="1523013106313" expanded="true" signature="6999:7046" ph="DELETE FROM meituan_error_link... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meituan_analysis/coupons_filter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
           <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding>
-            <element signature="e#0#11#0" expanded="false" />
             <marker date="1523014503324" expanded="true" signature="165:362" ph="select a.poi... meituan_shop_info" />
             <marker date="1523014503324" expanded="true" signature="242:312" ph="select poi_i... meituan_shop_info" />
             <marker date="1523014503324" expanded="true" signature="1071:1138" ph="DELETE FROM meituan_coupons_info... " />
@@ -551,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
           <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1334">
           <caret line="63" column="65" lean-forward="true" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ggscrap/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python35/Lib/site-packages/scrapy/http/request/form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -748,24 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/DeBangZhengQuan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyecharts/pycharts_example.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_report.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="6" />
         </state>
       </provider>
     </entry>
@@ -787,20 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/coupons_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <marker date="1523014503324" expanded="true" signature="165:362" ph="select a.poi... meituan_shop_info" />
-            <marker date="1523014503324" expanded="true" signature="242:312" ph="select poi_i... meituan_shop_info" />
-            <marker date="1523014503324" expanded="true" signature="1071:1138" ph="DELETE FROM meituan_coupons_info... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,30 +802,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-174">
           <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/hotmap.json">
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/hotmap.json" />
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/hotmap.txt" />
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="48402" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="53961" />
-          <folding />
+        <state relative-caret-position="151">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/hotmap.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="0" column="552" lean-forward="false" selection-start-line="0" selection-start-column="552" selection-end-line="0" selection-end-column="552" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/baidu_hotmap.html" />
     <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="156" column="27" lean-forward="false" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
+        <state relative-caret-position="61">
+          <caret line="148" column="13" lean-forward="false" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
           <folding>
             <marker date="1523013106313" expanded="true" signature="3333:3348" ph="select count... missing_value" />
             <marker date="1523013106313" expanded="true" signature="3333:3357" ph="select count... missing_value" />
@@ -858,44 +840,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/baidu_hotmap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1523730171466" expanded="true" signature="186:451" ph="select disti... meituan_shop_info" />
-            <marker date="1523730171466" expanded="true" signature="186:452" ph="select disti... meituan_shop_info" />
-            <marker date="1523730171466" expanded="true" signature="473:658" ph="INSERT INTO meituan_shop_map... " />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/meituan_report.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meituan_analysis/baidu_hotmap_point.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
             <marker date="1523730779360" expanded="true" signature="124:336" ph="select round... meituan_shop_map" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/baidu_shop_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+            <marker date="1523879843427" expanded="true" signature="186:451" ph="select disti... meituan_shop_info" />
+            <marker date="1523879843427" expanded="true" signature="186:452" ph="select disti... meituan_shop_info" />
+            <marker date="1523879843427" expanded="true" signature="473:658" ph="INSERT INTO meituan_shop_map... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan_analysis/coupons_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1523014503324" expanded="true" signature="165:362" ph="select a.poi... meituan_shop_info" />
+            <marker date="1523014503324" expanded="true" signature="242:312" ph="select poi_i... meituan_shop_info" />
+            <marker date="1523014503324" expanded="true" signature="1071:1138" ph="DELETE FROM meituan_coupons_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/Login/DongHaiSecurities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="31" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/t.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/DaoTongFutures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#16#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7m_analysis/decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/DeBangZhengQuan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ggscrap/FundNavSpiders/Cookie/GuangFaAsset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
