@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caaeb366-596a-4316-9b75-7d5af244b444" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/stk600519_forecast.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ggscrap/ggscrapy_test.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/.ipynb_checkpoints/lean05-checkpoint.ipynb" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/.ipynb_checkpoints/lean05-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/__init__.py" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean01.py" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean01.py" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean02.py" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean02.py" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean03.py" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean03.py" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean03_2.py" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean03_2.py" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean04.ipynb" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean04.ipynb" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean04_2.ipynb" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean04_2.ipynb" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean05.ipynb" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean05.ipynb" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/dataset/0_simplifyweibo.txt" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/dataset/0_simplifyweibo.txt" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/dataset/1_simplifyweibo.txt" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/dataset/1_simplifyweibo.txt" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/dataset/2_simplifyweibo.txt" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/dataset/2_simplifyweibo.txt" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/dataset/3_simplifyweibo.txt" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/dataset/3_simplifyweibo.txt" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/dataset/raw_weibo_test.csv" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/dataset/raw_weibo_test.csv" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/dataset/readme.txt" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/dataset/readme.txt" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/lean06.py" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/lean06.py" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/main.py" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/main.py" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/tools.py" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/tools.py" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/中文停用词库.txt" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/中文停用词库.txt" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/哈工大停用词表.txt" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/哈工大停用词表.txt" />
-      <change beforePath="$PROJECT_DIR$/analyst_lean/lean/lean06/四川大学机器智能实验室停用词库.txt" afterPath="$PROJECT_DIR$/analyst_lean/my_leaning/lean06/四川大学机器智能实验室停用词库.txt" />
-      <change beforePath="$PROJECT_DIR$/../ggscrap/FundNavSpiders/Cookie/GuangFaAsset.py" afterPath="$PROJECT_DIR$/../ggscrap/FundNavSpiders/Cookie/GuangFaAsset.py" />
-    </list>
+    <list default="true" id="caaeb366-596a-4316-9b75-7d5af244b444" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,17 +39,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stk600519_forecast.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stk600519_forecast.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -445,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524064720182</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="......">
+      <created>1528902570214</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528902570214</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -459,15 +430,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4250412" sideWeight="0.5075643" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34596375" sideWeight="0.50680786" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42009884" sideWeight="0.49413645" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34596375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34596375" sideWeight="0.49319214" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18986385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
